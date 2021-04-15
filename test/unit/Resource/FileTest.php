@@ -77,7 +77,7 @@ class FileTest extends UnitTestCase
     {
         $fileResource = $this->getMockBuilder(File::class)
             ->disableOriginalConstructor()
-            ->addMethods([])
+            ->setMethods([])
             ->getMock();
 
         $actualEncodedPath = $this->invokeMethod($fileResource, 'urlencodePath', [$path]);
