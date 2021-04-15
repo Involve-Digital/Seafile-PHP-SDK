@@ -1,5 +1,5 @@
 {
-  "name": "involve-digital/seafile-php-sdk",
+  "name": "sdo/seafile-php-sdk",
   "description": "This is a PHP package for accessing Seafile Web API",
   "homepage": "https://github.com/Schmidt-DevOps/seafile-php-sdk",
   "license": "MIT",
